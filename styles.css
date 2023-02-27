@@ -51,7 +51,7 @@ h3 {
 #user-img {
     font-size: 6rem;
     position: absolute;
-    bottom: 14rem;
+    bottom: 10rem;
     margin-left: 0;
 }
 
@@ -67,7 +67,7 @@ h3 {
 
 #plus-one {
     position: absolute;
-    bottom: 7rem;
+    bottom: 3rem;
     font-size: 3rem;
     color: green;
     font-weight: 900;
@@ -104,7 +104,7 @@ h3 {
 #cpt-img {
     font-size: 6rem;
     position: absolute;
-    bottom: 14rem;
+    bottom: 10rem;
 }
 
 .right-img {
@@ -123,7 +123,7 @@ h3 {
 
 #cpt-one {
     position: absolute;
-    bottom: 7rem;
+    bottom: 3rem;
     font-size: 3rem;
     color: red;
     font-weight: 900;
@@ -203,7 +203,6 @@ h3 {
 
     #user-move {
         font-size: 1rem;
-        margin-top: 55%;
     }
 
     #plus-one {
@@ -222,7 +221,6 @@ h3 {
 
     #cpt-move {
         font-size: 1rem;
-        margin-top: 55%;
     }
 
     #cpt-one {
@@ -267,14 +265,6 @@ h3 {
     .result-display {
         height: 6rem;
     }
-
-    #user-move {
-        margin-top: 55%;
-    }
-
-    #cpt-move {
-        margin-top: 55%;
-    }
   }
 
  @media (min-width: 361px) and (max-width: 375px) {
@@ -284,14 +274,6 @@ h3 {
 
     .result-display {
         height: 7rem;
-    }
-
-    #user-move {
-        margin-top: 50%;
-    }
-
-    #cpt-move {
-        margin-top: 50%;
     }
  }
 
@@ -310,14 +292,6 @@ h3 {
 
     label {
         font-size: 0.7rem;
-    }
-
-    #user-move {
-        margin-top: 80%;
-    }
-
-    #cpt-move {
-        margin-top: 80%;
     }
   }
 
@@ -339,14 +313,6 @@ h3 {
     .result-display {
         height: 7rem;
     }
-
-    #user-move {
-        margin-top: 40%;
-    }
-
-    #cpt-move {
-        margin-top: 40%;
-    }
   }
 
   @media (min-width: 542px) and (max-width: 768px) {
@@ -367,18 +333,10 @@ h3 {
         padding: 1% 5%;
     }
 
-    #user-move {
-        margin-top: 45%;
-    }
-
     .your-score {
         width: 80%;
         margin-top: 15%;
         margin-bottom: 10%;
-    }
-
-    #cpt-move {
-        margin-top: 50%;
     }
 
     .their-score {
@@ -412,18 +370,10 @@ h3 {
         padding: 1% 5%;
     }
 
-    #user-move {
-        margin-top: 45%;
-    }
-
     .your-score {
         width: 80%;
         margin-top: 15%;
         margin-bottom: 10%;
-    }
-
-    #cpt-move {
-        margin-top: 50%;
     }
 
     .their-score {
@@ -458,17 +408,9 @@ h3 {
         margin-top: 10%;
     }
 
-    #user-move {
-        margin-top: 55%;
-    }
-
     .their-score {
         width: 80%;
         margin-top: 12%;
-    }
-
-    #cpt-move {
-        margin-top: 55%;
     }
    }
 
@@ -483,14 +425,6 @@ h3 {
 
     .result-display {
         height: 20rem;
-    }
-
-    #user-move {
-        margin-top: 50%;
-    }
-
-    #cpt-move {
-        margin-top: 50%;
     }
 
     .your-score {
