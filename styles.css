@@ -263,18 +263,18 @@ h3 {
     }
 
     .result-display {
-        height: 6rem;
+        height: 7rem;
     }
 
     .your-score {
         width: 80%;
-        margin-top: 60%;
+        margin-top: 80%;
         margin-bottom: 10%;
     }
 
     .their-score {
         width: 80%;
-        margin-top: 60%;
+        margin-top: 80%;
         margin-bottom: 10%;
     }
   }
@@ -290,13 +290,13 @@ h3 {
 
     .your-score {
         width: 80%;
-        margin-top: 60%;
+        margin-top: 80%;
         margin-bottom: 10%;
     }
 
     .their-score {
         width: 80%;
-        margin-top: 60%;
+        margin-top: 80%;
         margin-bottom: 10%;
     }
  }
@@ -307,7 +307,7 @@ h3 {
     }
 
     .result-display {
-        height: 6rem;
+        height: 7rem;
     }
 
     h1 {
@@ -319,13 +319,13 @@ h3 {
     }
     .your-score {
         width: 80%;
-        margin-top: 60%;
+        margin-top: 80%;
         margin-bottom: 10%;
     }
 
     .their-score {
         width: 80%;
-        margin-top: 60%;
+        margin-top: 80%;
         margin-bottom: 10%;
     }
   }
