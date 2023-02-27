@@ -260,16 +260,20 @@ h3 {
         font-size: 1rem;
     }
 
+    label {
+        font-size: 0.7rem;
+    }
+
     .result-display {
-        height: 7rem;
+        height: 6rem;
     }
 
     #user-move {
-        margin-top: 80%;
+        margin-top: 55%;
     }
 
     #cpt-move {
-        margin-top: 80%;
+        margin-top: 55%;
     }
   }
 
@@ -293,19 +297,27 @@ h3 {
 
  @media (min-width: 375px) and (max-width: 393px) {
     body {
-        margin-top: 10%;
+        margin-top: 0;
+    }
+
+    .result-display {
+        height: 6rem;
     }
 
     h1 {
         font-size: 1rem;
     }
 
+    label {
+        font-size: 0.7rem;
+    }
+
     #user-move {
-        margin-top: 99%;
+        margin-top: 80%;
     }
 
     #cpt-move {
-        margin-top: 99%;
+        margin-top: 80%;
     }
   }
 
