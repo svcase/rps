@@ -256,6 +256,10 @@ h3 {
         margin-top: 0;
     }
 
+    h1 {
+        font-size: 1rem;
+    }
+
     .result-display {
         height: 7rem;
     }
@@ -286,6 +290,24 @@ h3 {
         margin-top: 50%;
     }
  }
+
+ @media (min-width: 375px) and (max-width: 393px) {
+    body {
+        margin-top: 10%;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    #user-move {
+        margin-top: 99%;
+    }
+
+    #cpt-move {
+        margin-top: 99%;
+    }
+  }
 
  @media (min-width: 394px) and (max-width: 414px) {
     body {
