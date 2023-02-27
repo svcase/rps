@@ -22,7 +22,7 @@ let yPosition = 10;
 let handTimer = 0;
 let lowerTimer = 0;
 
-let onePosition = 3;
+let onePosition = 4;
 let oneTimer = 0;
 
 function moveHand() {
@@ -57,7 +57,7 @@ function addOne() {
 
 function hideOne() {
     plusOne.hidden = true;
-    onePosition = 3;
+    onePosition = 4;
 }
 
 function showOne() {
@@ -77,7 +77,7 @@ function addCpt() {
 
 function cptHide() {
     cptOne.hidden = true;
-    onePosition = 3;
+    onePosition = 4;
 }
 
 function showCpt() {
