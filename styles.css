@@ -265,6 +265,12 @@ h3 {
     .result-display {
         height: 6rem;
     }
+
+    .your-score {
+        width: 80%;
+        margin-top: 40%;
+        margin-bottom: 10%;
+    }
   }
 
  @media (min-width: 361px) and (max-width: 375px) {
@@ -274,6 +280,12 @@ h3 {
 
     .result-display {
         height: 7rem;
+    }
+
+    .your-score {
+        width: 80%;
+        margin-top: 40%;
+        margin-bottom: 10%;
     }
  }
 
@@ -292,6 +304,11 @@ h3 {
 
     label {
         font-size: 0.7rem;
+    }
+    .your-score {
+        width: 80%;
+        margin-top: 40%;
+        margin-bottom: 10%;
     }
   }
 
