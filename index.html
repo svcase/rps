@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+        <div class="result-display">
+            <h2 id="result"></h2>
+            <button id="repeat" onclick="tryAgain()" hidden>Try Again</button>
+            <div id="user-selection">
+                <p>Select your move:</p>
+                <input type="radio" id="rock" name="move" value="rock" required>
+                <label for="rock">Rock</label>
+                <input type="radio" id="paper" name="move" value="paper">
+                <label for="paper">Paper</label>
+                <input type="radio" id="scissors" name="move" value="scissors">
+                <label for="scissors">Scissors</label>
+                <button class="start-btn" onclick="startGame()">Start</button>
+            </div>
+        </div>
+    </header>
+
+    <div id="game-board">
+        <div id="user">
+            <h3>You:</h3>
+            <div class="left-img">
+                <p id="user-img">&#129308</p>
+            </div>
+            <p id="user-move"></p>
+            <p id="plus-one" hidden>+1</p>
+            <div class="your-score">
+                <p>Your score:</p>
+                <p id="user-score"></p>
+            </div>
+        </div>
+
+        <div id="cpt">
+            <h3>Computer:</h3>
+            <div class="right-img">
+                <p id="cpt-img">&#129307</p>
+            </div>
+            <p id="cpt-move"></p>
+            <p id="cpt-one" hidden>+1</p>
+            <div class="their-score">
+                <p>Computer score:</p>
+                <p id="cpt-score"></p>
+            </div>
+            <div>
+                <p></p>
+            </div>
+            <div>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
