@@ -18,11 +18,11 @@ let cptImg = document.getElementById('cpt-img');
 let plusOne = document.getElementById('plus-one');
 let cptOne = document.getElementById('cpt-one');
 
-let yPosition = 10;
+let yPosition = 7;
 let handTimer = 0;
 let lowerTimer = 0;
 
-let onePosition = 4;
+let onePosition = 8;
 let oneTimer = 0;
 
 function moveHand() {
@@ -32,7 +32,7 @@ function moveHand() {
     cptImg.style.bottom = yPosition + 'rem';
     }
     handTimer = setTimeout(moveHand, 30);
-    if (yPosition > 10.625) {
+    if (yPosition > 7.625) {
         lowerHand();
     }
 }
@@ -43,7 +43,7 @@ function lowerHand() {
         cptImg.style.bottom = yPosition + 'rem';
         }
         lowerTimer = setTimeout(lowerHand, 30);
-        if (yPosition < 10) {
+        if (yPosition < 7) {
             clearTimeout(lowerTimer);
         }
     clearTimeout(handTimer);
@@ -57,7 +57,7 @@ function addOne() {
 
 function hideOne() {
     plusOne.hidden = true;
-    onePosition = 4;
+    onePosition = 8;
 }
 
 function showOne() {
@@ -77,7 +77,7 @@ function addCpt() {
 
 function cptHide() {
     cptOne.hidden = true;
-    onePosition = 4;
+    onePosition = 8;
 }
 
 function showCpt() {
